@@ -1,0 +1,22 @@
+<resources>
+	<string name="app_name">Parcial1</string>
+
+	<string-array name="music_album">
+		<item>Abbey Road - The Beatles</item>
+		<item>Let It Be - The Beatles</item>
+		<item>The Beatles - The Beatles</item>
+		<item>Mixed-Up Hearts - Lesley Gore</item>
+		<item>Viva las Vegas - Elvis Presley</item>
+		<item>What a Wonderful World - Louis Armstrong</item>
+	</string-array>
+
+	<string-array name="music_name">
+		<item>Here Come the Sun</item>
+		<item>Let It Be</item>
+		<item>Ob La Di, Ob La Da</item>
+		<item>Sunshine, Lollipops</item>
+		<item>Viva las Vegas</item>
+		<item>What a Wonderful World</item>
+	</string-array>
+
+</resources>

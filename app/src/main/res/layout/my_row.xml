@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:id="@+id/mainLayouts"
+		android:layout_height="wrap_content">
+
+	<com.google.android.material.card.MaterialCardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			app:cardCornerRadius="20dp"
+			android:layout_marginEnd="-100px"
+			app:cardElevation="5dp"
+			android:theme="@style/Theme.MaterialComponents"
+			app:strokeColor="@color/colorAccent"
+			tools:ignore="MissingConstraints">
+
+		<RelativeLayout
+				android:layout_width="match_parent"
+				app:cardCornerRadius="20dp"
+				android:background="#fff"
+				app:strokeColor="@color/colorAccent"
+				android:layout_height="wrap_content">
+
+
+			<ImageView
+					android:id="@+id/imgCover"
+					android:layout_width="100dp"
+					android:layout_height="100dp"
+					android:background="#000"
+					android:layout_alignParentStart="true"
+					app:civ_border_color="@android:color/white"
+					app:civ_border_width="4dp"
+					app:civ_shadow="true"
+					app:civ_shadow_color="@color/colorAccent"
+					app:civ_shadow_radius="5dp"
+					android:layout_centerInParent="true"/>
+
+			<LinearLayout
+					android:id="@+id/llDesc"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerInParent="true"
+					android:layout_toEndOf="@id/imgCover"
+					android:orientation="vertical">
+
+				<TextView
+						android:id="@+id/tvBand"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="10dp"
+						android:text="@string/app_name"
+						android:textColor="@android:color/black"
+						android:textSize="20sp"/>
+
+				<TextView
+						android:id="@+id/tvTitleMusic"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="10dp"
+						android:text="@string/app_name"
+						android:textColor="@android:color/black"
+						android:textSize="12sp"/>
+
+			</LinearLayout>
+
+			<ImageView
+					android:id="@+id/imgKat"
+					android:layout_width="20dp"
+					android:layout_height="20dp"
+					android:layout_alignParentEnd="true"
+					android:layout_centerVertical="true"
+					android:layout_marginEnd="20dp"
+					android:src="@drawable/ic_play"/>
+
+		</RelativeLayout>
+
+	</com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
