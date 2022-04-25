@@ -98,10 +98,6 @@ public class play_music extends AppCompatActivity {
             }
         });
 
-
-        Toast.makeText(this, "No Data " + currentIndex, Toast.LENGTH_LONG).show();
-
-
         //above seekbar volume
         //
 
